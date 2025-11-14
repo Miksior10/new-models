@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabryka cukierków</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <header>
+        <section class="top-row">
+            <section class="top-block">
+                <a class="order-link" href="zamowienie.html">Zamów cukierki</a>
+            </section>
+            <section class="top-block logo-block">
+                <a href="index.html">
+                    <img src="logotyp.png" alt="Nasze logo">
+                </a>
+            </section>
+        </section>
+        <section class="banner">
+            <h1>Strefa zamówień</h1>
+        </section>
+    </header>
+    <main>
+        <section class="main-row">
+            <section class="main-block main-left">
+                <label for="shape-number">Numer kształtu:</label>
+                <input type="number" id="shape-number" min="1" step="1">
+
+                <p>skomponuj swój kolor, podaj RGB:</p>
+                <div class="rgb-inputs">
+                    <label for="color-r">R:</label>
+                    <input type="number" id="color-r" min="0" max="255">
+                    <label for="color-g">G:</label>
+                    <input type="number" id="color-g" min="0" max="255">
+                    <label for="color-b">B:</label>
+                    <input type="number" id="color-b" min="0" max="255">
+                </div>
+                <button id="order-btn">Zamówienie</button>
+                <p id="order-result">Twoje zamówienie</p>
+                <button id="color-btn">Kolor</button>
+            </section>
+            <section class="main-block main-right">
+                <h2>Nasza oferta</h2>
+                <table>
+                    <tr>
+                        <th>Kształty</th>
+                        <td rowspan="2">Możesz zamówić<br>dowolny kolor cukierka</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>cytryna</li>
+                                <li>liść</li>
+                                <li>banan</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Autor strony: <strong>00000000000</strong></p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+</html>

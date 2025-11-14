@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #a5c07a;
+}
+
+.top-row {
+    display: flex;
+}
+
+.top-block {
+    width: 50%;
+    height: 170px;
+    background-color: rgb(146, 184, 112);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-block img {
+    max-width: 140%;
+}
+
+.order-link {
+    display: inline-block;
+    font-size: 150%;
+    text-decoration: none;
+    color: #ffffff;
+    background-image: url("cukierki1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px 120px 20px;
+}
+
+.banner,
+.footer {
+    background-color: rgb(100, 61, 49);
+    color: #ffffff;
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-row {
+    display: flex;
+}
+
+.main-block {
+    width: 50%;
+    height: 450px;
+    background-color: rgb(146, 184, 112);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-right h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px dashed green;
+    margin: 30px auto;
+    width: 80%;
+}
+
+th,
+td {
+    border: 2px dashed green;
+    padding: 20px;
+}
+
+ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+h1 {
+    letter-spacing: 20px;
+    font-size: 250%;
+    margin: 0;
+}
+
+#shape-number,
+#color-r,
+#color-g,
+#color-b {
+    width: 100px;
+    margin: 5px;
+}
+
+.rgb-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+#order-btn,
+#color-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
